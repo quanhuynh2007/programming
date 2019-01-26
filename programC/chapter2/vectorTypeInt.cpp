@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// Modify to test push
 void intarrayMake(vector<int> &a, int elements[], int n) // Create array
 {
     int i = 0;
