@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
     float x; unsigned short a[10] = { 0 };
