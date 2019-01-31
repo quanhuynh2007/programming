@@ -55,5 +55,10 @@ int main()
     printf("Value: %f %f %f\n", B[id], *pMin, refMin);
     //printf("Memory address 0x: 0x%x 0x%x\n", &B[id], pMin); // warning: format ‘%x’ expects argument of type ‘unsigned int’
     printf("Memory address po: %p %p %p\n", &B[id], pMin, &refMin);
+    // Test more detail * and &
+    int* abc = &n;
+    int& abcd = n;
+    printf("\n value: %d %d %d\n", *abc, abcd, n);
+    printf("%p %p %p\n", abc, &abcd, &n);
     return 0;
 }
