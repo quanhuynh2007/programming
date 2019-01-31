@@ -58,7 +58,8 @@ int main()
     // Test more detail * and &
     int* abc = &n;
     int& abcd = n;
-    printf("\n value: %d %d %d\n", *abc, abcd, n);
-    printf("%p %p %p\n", abc, &abcd, &n);
+    int abcde = n;
+    printf("\n value: %d %d %d %d\n", *abc, abcd, n, abcde);
+    printf("%p %p %p %p\n", abc, &abcd, &n, &abcde);
     return 0;
 }
