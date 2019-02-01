@@ -1,5 +1,6 @@
 #include "myMem.h"
 
+// a few hard to understand
 void* mAlloc(int size)
 {
     size += sizeof(int);
