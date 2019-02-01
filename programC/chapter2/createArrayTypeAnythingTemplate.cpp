@@ -32,9 +32,9 @@ int main()
     arrInput(fr, numFr);
     // Do something here...
     cout << numFr << "element(s):" << endl;
-    arrOutput(fr, numFr);
     if (fr)
     {
+        arrOutput(fr, numFr);
         //Free allocated memory
         free(fr);
     }
