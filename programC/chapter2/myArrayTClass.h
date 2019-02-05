@@ -38,7 +38,7 @@ bool arrResize(T* &aData, int nItem)
 {
     int sz = sizeof_nItem + nItem * sizeof(T);
     T* aNew = NULL;
-    T* originAddr = NULL;
+    void* originAddr = NULL;
     if (aData)
     {
         originAddr = origin_addr(aData);
