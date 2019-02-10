@@ -1,0 +1,15 @@
+a.out
+# Example
+# a comment - line start with #
+# untracked file have tail is .a
+#*.a
+# but tracked file lib.a
+#!lib.a
+# chỉ bỏ qua tập TODO ở thư mục gốc, chứ không phải ở các thư mục con subdir/TODO
+#/TODO
+# bỏ qua tất cả tập tin trong thư mục build/
+#build/
+# bỏ qua doc/notes.txt, không phải doc/server/arch.txt
+#doc/*.txt
+# bỏ qua tất cả tập .txt trong thư mục doc/
+#doc/**/*.txt
